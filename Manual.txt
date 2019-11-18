@@ -1,0 +1,6 @@
+
+
+docker run -d -p 25565:25565 --name mc thereapsz/ScreechCraft
+
+sudo docker build -t screech .
+sudo docker run -it screech:latest
