@@ -1,5 +1,5 @@
 {
-  "name": "herma",
+  "name": "Krab",
   "creatureType": "arthropod",
   "groups": [
     "monster"
@@ -39,12 +39,12 @@
   },
   "width": 0.9,
   "height": 0.9,
-  "experience": 10,
-  "health": 30,
+  "experience": 15,
+  "health": 50,
   "defense": 3,
   "armor": 0,
-  "speed": 22,
-  "damage": 1,
+  "speed": 20,
+  "damage": 8,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,

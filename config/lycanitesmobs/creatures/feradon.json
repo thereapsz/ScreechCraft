@@ -1,5 +1,5 @@
 {
-  "name": "feradon",
+  "name": "Lion",
   "creatureType": "beast",
   "groups": [
     "predator"
@@ -39,12 +39,12 @@
   },
   "width": 0.8,
   "height": 1.5,
-  "experience": 10,
-  "health": 20,
+  "experience": 18,
+  "health": 45,
   "defense": 0,
   "armor": 0,
-  "speed": 28,
-  "damage": 3,
+  "speed": 30,
+  "damage": 4,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,

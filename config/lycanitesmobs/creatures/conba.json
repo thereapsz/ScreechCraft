@@ -1,5 +1,5 @@
 {
-  "name": "conba",
+  "name": "Monkeh",
   "creatureType": "beast",
   "groups": [
     "monster"
@@ -37,12 +37,12 @@
   },
   "width": 0.6,
   "height": 0.9,
-  "experience": 5,
-  "health": 10,
+  "experience": 7,
+  "health": 15,
   "defense": 0,
   "armor": 0,
   "speed": 26,
-  "damage": 2,
+  "damage": 1.5,
   "attackSpeed": 1,
   "rangedSpeed": 0.5,
   "effectDuration": 5,
