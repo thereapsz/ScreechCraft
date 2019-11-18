@@ -1,5 +1,5 @@
 {
-  "name": "asmodeus",
+  "name": "The-All-Mind",
   "creatureType": "aberration",
   "groups": [
     "boss"
@@ -33,12 +33,12 @@
   },
   "width": 20.0,
   "height": 21.0,
-  "experience": 1000,
-  "health": 5000,
-  "defense": 2,
+  "experience": 1500,
+  "health": 7500,
+  "defense": 3,
   "armor": 0,
   "speed": 32,
-  "damage": 2,
+  "damage": 6,
   "attackSpeed": 1,
   "rangedSpeed": 4,
   "effectDuration": 5,

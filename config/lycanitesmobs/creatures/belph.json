@@ -1,5 +1,5 @@
 {
-  "name": "belph",
+  "name": "Minion",
   "creatureType": "demon",
   "groups": [
     "monster"
@@ -38,12 +38,12 @@
   },
   "width": 0.6,
   "height": 1.8,
-  "experience": 5,
-  "health": 15,
+  "experience": 8,
+  "health": 25,
   "defense": 0,
-  "armor": 0,
+  "armor": 1,
   "speed": 24,
-  "damage": 1,
+  "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 0.5,
   "effectDuration": 5,
