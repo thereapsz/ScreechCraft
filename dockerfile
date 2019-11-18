@@ -1,4 +1,5 @@
-FROM adoptopenjdk/openjdk8-openj9:alpine-nightly
+#FROM adoptopenjdk/openjdk8-openj9:alpine-nightly
+FROM openjdk:8-jre-alpine
 
 LABEL maintainer "TheReapsZ"
 
@@ -9,11 +10,17 @@ RUN addgroup -g 1000 minecraft \
 
 EXPOSE 25565
 
-ARG VERSION=v1.0
-ADD https://github.com/thereapsz/ScreechCraft/releases/tag/${VERSION} /data
-RUN chmod +x /data
-
 VOLUME ["/data","/mods","/config"]
 WORKDIR /data
 
-CMD /start.sh
+ARG VERSION=v1.0
+#ADD https://github.com/thereapsz/ScreechCraft/releases/tag/${VERSION} /data
+COPY . /data
+#COPY start.sh /data
+
+RUN chmod +x /data
+RUN chmod a+x /data/start.sh
+
+ENTRYPOINT ["/data/start.sh"]
+
+#CMD ./start.sh
