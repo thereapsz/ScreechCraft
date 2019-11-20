@@ -30,7 +30,7 @@ EXPOSE 25565 25575
 
 #COPY . /data
 
-RUN git clone https://github.com/thereapsz/ScreechCraft.git /data
+RUN git clone --branch Server https://github.com/thereapsz/ScreechCraft.git /data
 RUN chmod +x /usr/bin/*
 
 RUN dos2unix /data/start.sh
