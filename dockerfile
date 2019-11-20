@@ -1,8 +1,7 @@
 #FROM adoptopenjdk/openjdk8-openj9:alpine-nightly
 FROM openjdk:8-jre-alpine
-#FROM java:8
 
-LABEL maintainer "itzg"
+LABEL maintainer "thereapsz"
 
 RUN apk add --no-cache -U \
   openssl \
@@ -27,14 +26,18 @@ RUN addgroup -g 1000 minecraft \
 
 EXPOSE 25565 25575
 
-COPY . /data
+
+
+#COPY . /data
+
+RUN git clone https://github.com/thereapsz/ScreechCraft.git /data
 RUN chmod +x /usr/bin/*
 
+RUN dos2unix /data/start.sh
+RUN chmod +x /data/start.sh
+
+#WORKDIR /data
 VOLUME ["/data"]
-
 WORKDIR /data
-
-ENTRYPOINT /start.sh
-
-COPY start* /
-RUN dos2unix /start* && chmod +x /start*
+ENTRYPOINT /data/start.sh
+#COPY start* /
