@@ -11,10 +11,10 @@
 #     specified biome will be chosen from the biome specific folder.  If not,
 #     it will choose a generic ruin from the folder of the same name.
 #
-tries_per_chunk_normal=12
-chance_to_spawn_normal=25
-tries_per_chunk_nether=12
-chance_to_spawn_nether=25
+tries_per_chunk_normal=11
+chance_to_spawn_normal=28
+tries_per_chunk_nether=11
+chance_to_spawn_nether=28
 #
 # prevent a message from being logged every time a ruin is built
 disableRuinSpawnCoordsLogging=true
@@ -30,7 +30,7 @@ anySpawnMinDistance=0
 anySpawnMaxDistance=0
 #
 # allow displaying a block's data by hitting it with a stick
-enableStick=true
+enableStick=false
 #
 # dimension IDs whitelisted for ruins spawning, add custom dimensions IDs here as needed
 allowedDimensions=0,1,-1

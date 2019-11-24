@@ -12,7 +12,7 @@
     "content": "minecraft:stone",
     "amount": {
       "min": 16,
-      "max": 128
+      "max": 64
     },
     "unitWorth": 10,
     "weight": 100
@@ -30,7 +30,7 @@
     "content": "minecraft:fish",
     "amount": {
       "min": 2,
-      "max": 32
+      "max": 24
     },
     "unitWorth": 80,
     "weight": 100
@@ -39,7 +39,7 @@
     "content": "minecraft:apple",
     "amount": {
       "min": 2,
-      "max": 32
+      "max": 16
     },
     "unitWorth": 70,
     "weight": 100
@@ -48,7 +48,7 @@
     "content": "minecraft:book",
     "amount": {
       "min": 2,
-      "max": 16
+      "max": 64
     },
     "unitWorth": 80,
     "weight": 100
@@ -57,7 +57,7 @@
     "content": "minecraft:cactus",
     "amount": {
       "min": 2,
-      "max": 32
+      "max": 64
     },
     "unitWorth": 80,
     "weight": 100
@@ -66,7 +66,7 @@
     "content": "minecraft:diamond",
     "amount": {
       "min": 1,
-      "max": 8
+      "max": 32
     },
     "unitWorth": 1600,
     "weight": 100
@@ -75,7 +75,7 @@
     "content": "minecraft:dispenser",
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 12
     },
     "unitWorth": 200,
     "weight": 100
@@ -84,7 +84,7 @@
     "content": "minecraft:iron_ingot",
     "amount": {
       "min": 1,
-      "max": 32
+      "max": 64
     },
     "unitWorth": 200,
     "weight": 100
@@ -102,7 +102,7 @@
     "content": "minecraft:rotten_flesh",
     "amount": {
       "min": 1,
-      "max": 24
+      "max": 32
     },
     "unitWorth": 55,
     "weight": 100
@@ -120,7 +120,7 @@
     "content": "minecraft:slime_ball",
     "amount": {
       "min": 1,
-      "max": 32
+      "max": 24
     },
     "unitWorth": 60,
     "weight": 100
@@ -129,7 +129,7 @@
     "content": "minecraft:spider_eye",
     "amount": {
       "min": 1,
-      "max": 16
+      "max": 12
     },
     "unitWorth": 75,
     "weight": 100
@@ -138,7 +138,7 @@
     "content": "minecraft:string",
     "amount": {
       "min": 1,
-      "max": 24
+      "max": 32
     },
     "unitWorth": 35,
     "weight": 100
@@ -147,7 +147,7 @@
     "content": "minecraft:sugar",
     "amount": {
       "min": 1,
-      "max": 64
+      "max": 48
     },
     "unitWorth": 55,
     "weight": 100
@@ -156,7 +156,7 @@
     "content": "minecraft:tripwire_hook",
     "amount": {
       "min": 1,
-      "max": 8
+      "max": 16
     },
     "unitWorth": 70,
     "weight": 100
@@ -165,7 +165,7 @@
     "content": "minecraft:wheat",
     "amount": {
       "min": 1,
-      "max": 48
+      "max": 64
     },
     "unitWorth": 20,
     "weight": 100
@@ -174,7 +174,7 @@
     "content": "minecraft:leather",
     "amount": {
       "min": 1,
-      "max": 12
+      "max": 24
     },
     "unitWorth": 90,
     "weight": 100
@@ -183,8 +183,8 @@
     "content": "entity:minecraft:zombie",
     "amount": {
       "min": 1,
-      "max": 8
-    },
+      "max": 24
+    }
     "unitWorth": 120,
     "weight": 300
   },
@@ -201,7 +201,7 @@
     "content": "minecraft:potion",
     "amount": {
       "min": 1,
-      "max": 3
+      "max": 12
     },
     "unitWorth": 300,
     "weight": 100,
