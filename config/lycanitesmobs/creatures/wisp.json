@@ -4,7 +4,7 @@
   "groups": [],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWisp",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelWisp",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": false,
   "spawning": {
     "enabled": false,
@@ -22,7 +22,7 @@
     "spawnAreaLimit": 2,
     "spawnGroupMin": 1,
     "spawnGroupMax": 2,
-    "spawnsInLight": true,
+    "spawnsInLight": false,
     "spawnsInDark": false,
     "worldDayMin": -1,
     "despawnNatural": true,
