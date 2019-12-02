@@ -1,11 +1,10 @@
+###Running the server from console###
+docker run -itd -p 25565:25565 --name ScreechCraft thereapsz/screechcraft
 
+###Building the dockerfile###
+sudo docker build -t screechcraft .
 
-docker run -itd -p 25565:25565 --name ScreechCraft thereapsz/ScreechCraft
-
-sudo docker build -t screech .
-sudo docker run -it screech:latest
-
-
+###Docker Compose###
 version: "2"
 services:
     screechcraft:
@@ -13,3 +12,5 @@ services:
       container_name: "ScreechCraft"
       ports:
        - "25565:25565"
+      stdin_open: true
+      tty: true
