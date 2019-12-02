@@ -1,6 +1,15 @@
 
 
-docker run -d -p 25565:25565 --name mc thereapsz/ScreechCraft
+docker run -itd -p 25565:25565 --name ScreechCraft thereapsz/ScreechCraft
 
 sudo docker build -t screech .
 sudo docker run -it screech:latest
+
+
+version: "2"
+services:
+    screechcraft:
+      image: "screechauto:latest"
+      container_name: "ScreechCraft"
+      ports:
+       - "25565:25565"
