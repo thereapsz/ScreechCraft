@@ -1,1 +1,1 @@
-startradius Square 0 0 1000
+/startradius Square 0 0 1000
