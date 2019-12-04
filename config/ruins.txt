@@ -11,10 +11,10 @@
 #     specified biome will be chosen from the biome specific folder.  If not,
 #     it will choose a generic ruin from the folder of the same name.
 #
-tries_per_chunk_normal=11
-chance_to_spawn_normal=28
-tries_per_chunk_nether=11
-chance_to_spawn_nether=28
+tries_per_chunk_normal=16
+chance_to_spawn_normal=16
+tries_per_chunk_nether=16
+chance_to_spawn_nether=16
 #
 # prevent a message from being logged every time a ruin is built
 disableRuinSpawnCoordsLogging=true
