@@ -26,7 +26,8 @@ RUN addgroup -g 1000 minecraft \
 
 EXPOSE 25565 25575
 
-RUN git clone --branch Server https://github.com/thereapsz/ScreechCraft.git /data
+#RUN git clone --branch Server https://github.com/thereapsz/ScreechCraft.git /data
+COPY . /data
 RUN chmod +x /usr/bin/*
 
 RUN dos2unix /data/start.sh
