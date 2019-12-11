@@ -215,14 +215,5 @@
     },
     "unitWorth": 200,
     "weight": 100
-  },
-  {
-    "content": "minecraft:lapis_lazuli",
-    "amount": {
-      "min": 18,
-      "max": 46
-    },
-      "unitWorth": 90,
-      "weight": 100
-    }
+  }
 ]
