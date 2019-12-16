@@ -8,7 +8,7 @@ sudo docker build -t screechcraft .
 version: "2"
 services:
     screechcraft:
-      image: "screechauto:latest"
+      image: "reapsz/screechcraft:latest"
       container_name: "ScreechCraft"
       ports:
        - "25565:25565"
