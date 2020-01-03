@@ -40,7 +40,7 @@
 				"variation": 12,
 				"frequency": 20,
 				"minHeight": 0,
-				"maxHeight": 128
+				"maxHeight": 256
 			},
 			"blocks": [
 				{
@@ -86,7 +86,7 @@
 				"variation": 2,
 				"frequency": 2,
 				"minHeight": 0,
-				"maxHeight": 32
+				"maxHeight": 28
 			},
 			"blocks": [
 				{
@@ -153,8 +153,8 @@
 				"size": 6,
 				"variation": 3,
 				"frequency": 8,
-				"minHeight": 0,
-				"maxHeight": 16
+				"minHeight": 6,
+				"maxHeight": 22
 			},
 			"blocks": [
 				{
@@ -177,7 +177,7 @@
 				"variation": 2,
 				"frequency": 1,
 				"minHeight": 0,
-				"maxHeight": 32
+				"maxHeight": 42
 			},
 			"blocks": [
 				{
@@ -200,7 +200,7 @@
 				"variation": 0,
 				"frequency": 8,
 				"minHeight": 4,
-				"maxHeight": 32
+				"maxHeight": 24
 			},
 			"blocks": [
 				{
@@ -245,7 +245,7 @@
 			"parameters": {
 				"size": 112,
 				"variation": 50,
-				"frequency": 8,
+				"frequency": 16,
 				"minHeight": 0,
 				"maxHeight": 255
 			},
