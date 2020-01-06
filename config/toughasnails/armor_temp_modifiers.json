@@ -13,8 +13,53 @@
       "toughasnails:wool_helmet",
       "toughasnails:wool_chestplate",
       "toughasnails:wool_leggings",
-      "toughasnails:wool_boots"
+      "toughasnails:wool_boots",
     ],
     "modifier": 1
+  },
+  {
+    "names": [
+      "minecraft:leather_boots"
+      "minecraft:leather_leggings"
+      "minecraft:leather_chestplate"
+      "minecraft:leather_helmet"
+    ],
+    "modifier": 0.5
+  },
+  {
+    "names": [
+      "minecraft:iron_boots"
+      "minecraft:iron_leggings"
+      "minecraft:iron_chestplate"
+      "minecraft:iron_helmet"
+    ],
+    "modifier": 0.7
+  },
+  {
+    "names": [
+      "minecraft:golden_boots"
+      "minecraft:golden_leggings"
+      "minecraft:golden_chestplate"
+      "minecraft:golden_helmet"
+    ],
+    "modifier": 0.1
+  },
+  {
+    "names": [
+      "minecraft:chain_boots"
+      "minecraft:chain_leggings"
+      "minecraft:chain-chestplate"
+      "minecraft:chain_helmet"
+    ],
+    "modifier": 0.6
+  },
+  {
+    "names": [
+      "minecraft:diamond_boots"
+      "minecraft:diamond_leggings"
+      "minecraft:diamond_chestplate"
+      "minecraft:diamond_helmet"
+    ],
+    "modifier": 0.8
   }
 ]
