@@ -46,9 +46,7 @@
   {
     "state": {
       "block": "minecraft:torch",
-      "properties": {
-        "burning": "true"
-      }
+      "properties": {}
      },
     "temperature": 1.0
   }
