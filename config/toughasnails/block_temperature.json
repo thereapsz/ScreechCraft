@@ -39,11 +39,11 @@
   {
     "state": {
       "block": "biomesoplenty:hot_spring_water",
-      "properties": {
+      "properties": {}
       },
     "temperature": 5.0
   },
- {
+  {
     "state": {
       "block": "minecraft:torch",
       "properties": {
